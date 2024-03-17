@@ -4704,6 +4704,14 @@ local Tab = Window:MakeTab({
 
 Tab:AddParagraph("Note","If you want to execute the change ball color use this when you score an goal if you cant toggle the ui just reset character")
 
+Tab:AddButton({
+    Name = "Neon Ball",
+    Callback = function()
+              getgenv().Kitten = 5
+game.Workspace.TPSSystem.TPS.Material = "Neon"
+      end    
+})
+
 -- Bu alttaki kisim
 Tab:AddButton({
     Name = "Alz react",
