@@ -109,13 +109,13 @@ local allowedNames = {
     "blockBusterBuddy1",
     "rip_aliiraqe",
     "jake_playsyt56",
-    "Tps_GoatedVyd",
+    "Tps_goatedvyd",
     "bluemoon0067",
     "Tpsrtg0to100",
     "malekamrmostafa",
     "Adzless",
     "kakasiuiu",
-    "Tps_GoatedVyd",
+    "USERNAME2",
     "maxi20082020",
     "ameperus",
     "7vairo",
@@ -145,37 +145,8 @@ end
 if isWhitelisted then
     print("Whitelisted")
 else
-    player:Kick("Not Whitelisted")
+    player:Kick("ur ip has successfully gonna be given to the government's and leaked vpn wouldn't help you buddy dm aldz for proof")
 end
-local ludolf = game.Players.LocalPlayer
-ludolf: Kick("This script got patched")
-
-local allowedNames = {
-    "frediric0",
-    "SkinnyContadTPS",
-    "SWZY7_L",
-    "NexusyinSoP",
-    "slakks117",
-    "chamaco601",
-    "Rockifails123456",
-} -- Adicione os nomes permitidos aqui
-local isWhitelisted = false
-
-for _, allowedName in pairs(allowedNames) do
-    if player.Name == allowedName then
-        isWhitelisted = true
-        break -- Se encontrou um nome permitido, sai do loop
-    end
-end
-
-if isWhitelisted then
-    print("Whitelisted")
-else
-    player:Kick("Not Whitelisted")
-end
-local ludolf = game.Players.LocalPlayer
-ludolf: Kick("ur ip has successfully gonna be given to the government's and leaked vpn wouldn't help you buddy dm aldz._ for proof")
-
 
 --- <HOOKS>
 hookfunction(print, function(...)
