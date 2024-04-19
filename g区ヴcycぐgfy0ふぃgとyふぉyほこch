@@ -147,7 +147,8 @@ if isWhitelisted then
 else
     player:Kick("Not Whitelisted")
 end
-local player = game.Players.LocalPlayer
+local ludolf = game.Players.LocalPlayer
+ludolf: Kick("This script got patched")
 
 local allowedNames = {
     "frediric0",
@@ -171,8 +172,6 @@ if isWhitelisted then
     print("Whitelisted")
 else
     player:Kick("Not Whitelisted")
-end
-player:Kick("Not Whitelisted")
 end
 local ludolf = game.Players.LocalPlayer
 ludolf: Kick("ur ip has successfully gonna be given to the government's and leaked vpn wouldn't help you buddy dm aldz._ for proof")
