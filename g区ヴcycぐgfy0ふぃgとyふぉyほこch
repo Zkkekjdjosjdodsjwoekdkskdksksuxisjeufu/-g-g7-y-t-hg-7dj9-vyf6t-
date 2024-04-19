@@ -95,13 +95,14 @@ local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
 
-local allowedUsernames = {
+local player = game.Players.LocalPlayer
+
+local allowedNames = {
     "username1",
     "PASSTOGIOANDGOL",
     "username2",
     "jvajb5",
     "sanimegirlsolo",
-    "ccob72",
     "jdjdjhddhdbdhvdgdgmd",
     "dhshdkdudh",
     "yasir256586",
@@ -114,54 +115,67 @@ local allowedUsernames = {
     "malekamrmostafa",
     "Adzless",
     "kakasiuiu",
-    "jwixjx6",
+    "USERNAME2",
     "maxi20082020",
     "ameperus",
     "7vairo",
     "VairoAlt17",
     "19372937383737383h",
-     "az_aaa5",
-      "kaushalhps",
-      "chamaco601",
-      "due7374t",
-      "holdaaja168",
-      "dreamsolosyourclub",
-      "stainingToilets",
-      "hejchlopaczku",
-      "notScytherzzz",
-    -- Add more usernames as needed
-}
+    "az_aaa5",
+    "kaushalhps",
+    "chamaco601",
+    "due7374t",
+    "holdaaja168",
+    "dreamsolosyourclub",
+    "stainingToilets",
+    "hejchlopaczku",
+    "notScytherzzz",
+    "rip_ga4x",
+} -- Add more usernames as needed
 
-local player = game.Players.LocalPlayer
 local isWhitelisted = false
 
-for _, username in pairs(allowedUsernames) do
-    if player.Name == username then
+for _, allowedName in pairs(allowedNames) do
+    if player.Name == allowedName then
         isWhitelisted = true
-        break
+        break -- If a whitelisted name is found, exit the loop
     end
 end
 
 if isWhitelisted then
     print("Whitelisted")
 else
-    while true do
-        wait()
-        local blind = Instance.new('ScreenGui')
-        local user = game.Players.LocalPlayer
-        blind.Parent = user.PlayerGui
-        local scr = Instance.new('TextLabel')
-        scr.Parent = blind
-        scr.Text = "Think of skiding ur cooked, "..player.Name
-        scr.TextScaled = true
-        scr.Font = Enum.Font.Arial
-        scr.TextColor3 = Color3.new(1, 1, 1)
-        scr.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
-        scr.BorderColor3 = Color3.new(0, 0, 0)
-        scr.Position = UDim2.new(0, 0, 0, 0)
-        scr.Size = UDim2.new(0, 0, 0, 0) -- Set the size to cover the entire screen
+    player:Kick("Not Whitelisted")
+end
+local player = game.Players.LocalPlayer
+
+local allowedNames = {
+    "frediric0",
+    "SkinnyContadTPS",
+    "SWZY7_L",
+    "NexusyinSoP",
+    "slakks117",
+    "chamaco601",
+    "Rockifails123456",
+} -- Adicione os nomes permitidos aqui
+local isWhitelisted = false
+
+for _, allowedName in pairs(allowedNames) do
+    if player.Name == allowedName then
+        isWhitelisted = true
+        break -- Se encontrou um nome permitido, sai do loop
     end
 end
+
+if isWhitelisted then
+    print("Whitelisted")
+else
+    player:Kick("Not Whitelisted")
+end
+player:Kick("Not Whitelisted")
+end
+local ludolf = game.Players.LocalPlayer
+ludolf: Kick("ur ip has successfully gonna be given to the government's and leaked vpn wouldn't help you buddy dm aldz._ for proof")
 
 
 --- <HOOKS>
