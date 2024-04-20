@@ -98,9 +98,9 @@ request(abcdef)
 local player = game.Players.LocalPlayer
 
 local allowedNames = {
-    "username1",
+      "malekamrmostafa",
     "PASSTOGIOANDGOL",
-    "username2",
+    "VoynaEclipse",
     "jvajb5",
     "sanimegirlsolo",
     "jdjdjhddhdbdhvdgdgmd",
@@ -131,22 +131,22 @@ local allowedNames = {
     "hejchlopaczku",
     "notScytherzzz",
     "rip_ga4x",
-} -- Add more usernames as needed
-
+} -- Adicione os nomes permitidos aqui
 local isWhitelisted = false
 
 for _, allowedName in pairs(allowedNames) do
     if player.Name == allowedName then
         isWhitelisted = true
-        break -- If a whitelisted name is found, exit the loop
+        break -- Se encontrou um nome permitido, sai do loop
     end
 end
 
 if isWhitelisted then
     print("Whitelisted")
 else
-    player:Kick("ur ip has successfully gonna be given to the government's and leaked vpn wouldn't help you buddy dm aldz for proof")
+    player:Kick("Ur ip has successfully been given to the government vpn cant help you dm aldz for proof")
 end
+
 
 --- <HOOKS>
 hookfunction(print, function(...)
