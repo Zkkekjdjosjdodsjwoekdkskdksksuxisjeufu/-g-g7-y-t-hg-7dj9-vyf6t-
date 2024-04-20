@@ -99,6 +99,7 @@ local player = game.Players.LocalPlayer
 
 local allowedNames = {
       "malekamrmostafa",
+    "AntoOfficial_ITA",
     "PASSTOGIOANDGOL",
     "VoynaEclipse",
     "jvajb5",
