@@ -1134,15 +1134,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/fanlolZzz/tester/main
 })
 
 Tabs.Cracks:AddButton({
-    Title = "yBloodz crack ( by edaruph)",
-    Callback = function()
-              getgenv().Kitten = 10
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Edaruph/Cracks/main/yBloodz/GUI'))()
-      
-      end    
-})
-
-Tabs.Cracks:AddButton({
     Title = "Athena Pc",
     Callback = function()
               getgenv().Kitten = 10
