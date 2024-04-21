@@ -98,8 +98,9 @@ request(abcdef)
 local player = game.Players.LocalPlayer
 
 local allowedNames = {
-    "malekamrmostafa",
+    "Malekamrmostafa",
     "PASSTOGIOANDGOL",
+    "hhhhh_x61",
     "VoynaEclipse",
     "StarzyIsBack",
     "Mes2eii",
@@ -120,8 +121,9 @@ local allowedNames = {
     "malekamrmostafa",
     "Adzless",
     "kakasiuiu",
-    "USERNAME2",
+    "MarioMamaEChupa",
     "maxi20082020",
+    "fjdjskwkekddkrdkdkek",
     "ameperus",
     "7vairo",
     "VairoAlt17",
